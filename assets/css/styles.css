@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* Defina o GIF animado como plano de fundo e a posição central */
+    background: url('https://cdnb.artstation.com/p/assets/images/images/000/394/351/large/tim-vizesi-firewatchfanart.jpg?1420809304') center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.login-container {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 500px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background-color: rgba(41, 39, 39, 0.3);
+	box-shadow: 0 5px 30px black;
+ 
+}
+.login-container p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.login-container input {
+    border: none;
+	border-bottom-color: currentcolor;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+	width: 90%;
+	border-bottom: 2px solid white;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: transparent;
+	color: white;
+}
+.login-container input[type='text'],
+.login-container input[type='password'] {
+    border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.btn2 {
+	padding: 10px;
+	width: 100px;
+	border-radius: 20px;
+	background-color: rgb(10, 136, 43);
+	border-style: none;
+	color: white;
+	font-weight: 600;
+	margin: 10% 0;
+}
+.btn-area {
+	display: flex;
+	justify-content: center;
+}
+.avatar {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	top: calc(-80px/2);
+	left: calc(50% - 50px);
+	border: 10px solid #fff;
+}
+
+.login-container h2 {
+	margin: 0;
+	padding: 0 0 20px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contact-form a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.rem {
+	text-align: center;
+	color: rgb(255, 255, 255) !important;
+	font-size: 16px;
+}
+input[type="checkbox"] {
+	width: 5%;
+}
+.btn3 {
+	padding: 10px;
+	width: 100px;
+	border-radius: 20px;
+	background-color: rgb(10, 136, 43);
+	border-style: none;
+	color: white;
+	font-weight: 600;
+	margin: 10% 0;
+}
+.btn-area {
+	display: flex;
+	justify-content: center;
+}
