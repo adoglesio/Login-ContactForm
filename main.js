@@ -25,5 +25,5 @@ function handleLogin() {
 }
 
 function redirectRegister() {
-    window.location.href = '/contact.html';
+    window.location.href = 'contact.html';
 }
